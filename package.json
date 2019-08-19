@@ -1,0 +1,29 @@
+{
+  "name": "absorber-weight",
+  "version": "1.0.0",
+  "description": "electronic scale application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mykolapasko/absorber-weight.git"
+  },
+  "author": "mykola pasko",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.10.8",
+    "serialport": "^6.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/mykolapasko/absorber-weight/issues"
+  },
+  "homepage": "https://github.com/mykolapasko/absorber-weight#readme"
+}
